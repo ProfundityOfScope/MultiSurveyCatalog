@@ -1,3 +1,7 @@
+"""
+Reads in catalogs, typically for the other script (graphspectrum) to use.
+"""
+
 import numpy as np
 from astropy.table import Table, vstack
 from astropy.coordinates import SkyCoord
